@@ -808,6 +808,32 @@ table.blueTable {
     text-align: center;
     border-collapse: collapse;
 }
+.in_table{
+    background: #EFEFEF;
+    border-radius: 20px;
+    width: 1198px;
+    text-align: center;
+    border-collapse: collapse; 
+}
+table.in_table td, table.in_table th{
+    padding-left: 100px;
+}
+table.in_table td{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+table.in_table th{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
 table.blueTable td, table.blueTable th {
     padding: 3px 2px;
 }
@@ -894,6 +920,19 @@ table.blueTable td{
     }
     .edit_profile{
         left: 70%!important;
+    }
+    .in_table{
+        width: 100%;
+        padding-left: 0px;
+    }
+    table.in_table th{
+        font-size: 18px;
+    }
+    table.in_table td{
+        font-size: 17px;
+    }
+    table.in_table td, table.in_table th{
+        padding-left: 10px;
     }
 }
 @media (max-width: 1024px) {
